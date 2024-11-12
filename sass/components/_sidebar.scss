@@ -1,0 +1,7 @@
+aside {
+    flex: 1;
+    background: black;
+    border: 1px solid white;
+    @include text-standard;
+    @include text-center;
+}

@@ -1,0 +1,17 @@
+footer {
+    height: 15vh;
+    background: black;
+    border-top: 2px solid teal;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer>div {
+    display: flex;
+    flex-direction: column;
+}
+
+footer>div a {
+    text-decoration: none;
+    color: white
+}

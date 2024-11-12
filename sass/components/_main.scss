@@ -1,0 +1,7 @@
+.main-content {
+    flex: 3;
+    background: black;
+    border: 1px solid white;
+    @include text-standard;
+    @include text-center;
+}

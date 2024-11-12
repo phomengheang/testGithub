@@ -1,0 +1,18 @@
+@mixin text-standard{
+    text-transform: uppercase;
+    font-style: 25px;
+    font-weight: bold;
+    color: white;
+}
+@mixin text-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin btn-style($color,$background){
+    background: $background;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: $color;
+}
